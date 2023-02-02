@@ -1,4 +1,4 @@
-{% set version = "0.5.3" %}
+{% set version = "0.6.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/visdat_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/visdat/visdat_{{ version }}.tar.gz
-  sha256: 527c76b6643b8475a58516763ef40238cdc61ec62d2dcf690f7c316b93b878c6
+  sha256: 104acdbb9d41167b861ab24de0e1e1e14f61c1b476bac112fcbc6e47c157e598
 
 build:
   merge_build_host: true  # [win]
-  number: 1003
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
