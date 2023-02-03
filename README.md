@@ -1,13 +1,15 @@
 About r-visdat
 ==============
 
-Home: http://visdat.njtierney.com/, https://github.com/ropensci/visdat
+Home: https://docs.ropensci.org/visdat/
 
 Package license: MIT
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-visdat-feedstock/blob/main/LICENSE.txt)
 
 Summary: Create preliminary exploratory data visualisations of an entire  dataset to identify problems or unexpected features using 'ggplot2'.
+
+Development: https://github.com/ropensci/visdat
 
 Current build status
 ====================
