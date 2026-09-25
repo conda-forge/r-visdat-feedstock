@@ -1,4 +1,4 @@
-{% set version = "0.6.0" %}
+{% set version = "0.6.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/visdat_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/visdat/visdat_{{ version }}.tar.gz
-  sha256: 104acdbb9d41167b861ab24de0e1e1e14f61c1b476bac112fcbc6e47c157e598
+  sha256: 388d46ed56e8e2b887279d72a7016906899c3ba141072d7db6429c547a0e1201
 
 build:
-  number: 3
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
